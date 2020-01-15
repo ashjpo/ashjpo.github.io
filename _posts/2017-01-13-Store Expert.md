@@ -18,6 +18,9 @@ Finally, in the admin website, we will show analyzed data to brand managers, suc
 
 I responsible for most development and algorithm work.
 
+
+## 3.Demonstrate
+
 ![](/images/store_expert/p3.jpg)
 
 ![](/images/store_expert/p6.jpg)
