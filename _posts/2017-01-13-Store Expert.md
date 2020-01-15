@@ -15,3 +15,13 @@ In addition, when customers enter the store, the VIP and the frequent customers 
 Finally, in the admin website, we will show analyzed data to brand managers, such as store transaction rate, buyer retention rate, product sales forecast, customer preferences, product portraits, etc.
 
 ![](/images/store_expert/p3.jpg)
+![](/images/store_expert/p6.jpg)
+![](/images/store_expert/p5.jpg)
+![](/images/store_expert/p4.png)
+![](/images/store_expert/p7.png)
+
+## Responsibilities
+
+I responsible for most development and algorithm work.
+
+
