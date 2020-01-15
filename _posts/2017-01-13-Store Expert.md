@@ -14,4 +14,4 @@ In addition, when customers enter the store, the VIP and the frequent customers 
 
 Finally, in the admin website, we will show analyzed data to brand managers, such as store transaction rate, buyer retention rate, product sales forecast, customer preferences, product portraits, etc.
 
-![](/_posts/store_expert/p1.png)
+![](/images/store_expert/p1.png)
