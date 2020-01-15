@@ -29,7 +29,7 @@ I responsible for most development and algorithm work.
 
 ![](/images/store_expert/p4.png)
 
-![](/images/store_expert/p7.png)
+![](/images/store_expert/p7.jpg)
 
 
 
