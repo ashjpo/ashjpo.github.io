@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "S-A-S second-hand trading platforms"
+title: "S-A-S Second-Hand Trading Platform"
 featured-img: sas
 ---
 
@@ -16,9 +16,9 @@ I responsible for all development work.
 
 ## Demonstrate
 
-![](/images/lbs/p1.png)
+![](/images/sas/p1.png)
 
-![](/images/lbs/p2.png)
+![](/images/sas/p2.png)
 
 
 
