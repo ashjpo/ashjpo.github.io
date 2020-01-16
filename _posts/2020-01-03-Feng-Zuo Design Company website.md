@@ -24,6 +24,8 @@ I responsible for all development work.
 
 ![](/images/fz/p2.png)
 
+![](/images/fz/p7.png)
+
 ![](/images/fz/p3.png)
 
 ![](/images/fz/p4.png)
@@ -31,5 +33,7 @@ I responsible for all development work.
 ![](/images/fz/p5.png)
 
 ![](/images/fz/p6.png)
+
+![](/images/fz/p8.png)
 
 
