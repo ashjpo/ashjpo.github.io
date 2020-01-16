@@ -6,11 +6,11 @@ permalink: /CV/
 
 ## Basic
 
- **Mingyi Ma**
+&ensp;&ensp;**Mingyi Ma**
 
-age: 24 
+&ensp;&ensp;age: 24 
 
-gender: male 
+&ensp;&ensp;gender: male 
 
 ## Education
 
@@ -21,8 +21,8 @@ gender: male
 
 ## Research Experiences
 
-&ensp;**Peking University Information Security Laboratory** (Intelligent credit risk management group)
+&ensp;&ensp;**Peking University Information Security Laboratory** (Intelligent credit risk management group)
 
 ## Internship Experience
 
-&ensp;**Lenovo Research** (Device+ group---Computer vision intern)
+&ensp;&ensp;**Lenovo Research** (Device+ group---Computer vision intern)
