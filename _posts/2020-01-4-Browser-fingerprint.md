@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Browser-fingerprint: A ML-based recognition system"
+title: "Browser-Fingerprint: A ML-Based Recognition System"
 featured-img: webfp
 ---
 
