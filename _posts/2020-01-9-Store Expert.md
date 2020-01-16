@@ -4,7 +4,7 @@ title: "Store Expert"
 featured-img: se
 ---
 
-The "Store Expert" is an entrepreneurial project with several classmates. The "Store Expert" consists of several parts of products, such as business data analyze, customer statistics, AI advertisements, etc. The purpose of these products is to help businesses making better use of data. And precise marketing for customers. These products have been used in several chain store companies in China.
+The "Store Expert" is an entrepreneurial project with several classmates. The "Store Expert" consists of several products, such as business data analyze, customer statistics, AI advertisements, etc. The purpose of these products is to help businesses making better use of data. And precise marketing for customers. These products have been used in several chain store companies in China.
 
 We use artificial intelligence and data analysis in the retail field. Provide store owners with customer or VIP identification, business data analysis,customer statistics, etc. 
 
