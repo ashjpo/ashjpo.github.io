@@ -16,9 +16,9 @@ I responsible for all development work.
 
 ## Demonstrate
 
-![](/images/sas/p1.png)
+![](/images/sas/p1.jpg)
 
-![](/images/sas/p2.png)
+![](/images/sas/p2.jpg)
 
 
 
