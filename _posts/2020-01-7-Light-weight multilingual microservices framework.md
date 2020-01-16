@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LM-MS micro-services framework"
+title: "LM-MS Micro-Services Framework"
 featured-img: lmms
 ---
 Lightweight & multi-language micro-services framework (LM-MS) 
