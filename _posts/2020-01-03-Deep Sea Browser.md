@@ -19,11 +19,11 @@ I responsible for all development work.
 
 ## Demonstrate
 
-![](/images/lbs/p1.png)
+![](/images/dsb/p1.png)
 
-![](/images/lbs/p2.png)
+![](/images/dsb/p2.png)
 
-![](/images/lbs/p3.png)
+![](/images/dsb/p3.png)
 
 
 
