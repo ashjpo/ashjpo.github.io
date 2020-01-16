@@ -21,7 +21,7 @@ I responsible for most development work.
 
 ## Demonstrate
 
-![](/images/sf/p1.png)
+![](/images/sf/p1.jpg)
 
 ![](/images/sf/p2.png)
 
