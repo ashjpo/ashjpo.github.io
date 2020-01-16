@@ -20,7 +20,7 @@ In addition, when customers enter the store, the VIP and the frequent customers 
 
 Finally, in the admin website, we will show analyzed data to brand managers, such as store transaction rate, buyer retention rate, product sales forecast, customer preferences, product portraits, etc.
 
-The entire system consists of multiple parts, such as the store analyze device, APP on phone and pad for shop staff, admin website for business manager, spark data anlayze system, some data acquisition equipment, etc. The backend services for above are provided by a micro-service which developed by myself(detail in project "LM-MS"). And a open-source version has been uploaded to github.<https://github.com/ashjpo/LM-MS> Some computer vision algorithm such as "Face recognition, face detection, multi-object tracker, etc" by CNN are involved. And some tricks has been done in them.  
+The entire system consists of multiple parts, such as the store analyze device, APP on phone and pad for shop staff, admin website for business manager, spark data anlayze system, some data acquisition equipment, etc. The backend services for above are provided by a micro-service which developed by myself(detail in project "LM-MS"). A open-source version has been uploaded to github (<https://github.com/ashjpo/LM-MS>). And Some computer vision algorithm such as "Face recognition, face detection, multi-object tracker, etc" by CNN are involved. And some tricks has been done in them. At the same time, in order to speed up the face-id match speed in the database, we search in a tree structure based on the Attributes, such as shop, region, age, and gender, etc.
 
 ## Responsibilities
 
