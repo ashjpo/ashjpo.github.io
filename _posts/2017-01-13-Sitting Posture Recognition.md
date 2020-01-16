@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sitting Posture Recognition"
-featured-img: xs
+featured-img: sp
 ---
 
 Correct writing posture is very important for people. Especially for young people. If the writing posture is not correct, it will not only cause the spine to bend, but also cause vision loss, etc.
@@ -22,7 +22,9 @@ I responsible for algorithm development and debugging.
 ## Demonstrate
 
 ![](/images/sitting_position/p1.jpg)
+
 ![](/images/sitting_position/p2.jpg)
+
 ![](/images/sitting_position/p3.jpg)
 
 
