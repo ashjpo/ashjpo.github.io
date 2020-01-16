@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SlidePin A DTW-Based Unlocking System"
+title: "SlidePin: A DTW-Based Unlocking System"
 featured-img: slidepin
 ---
 
@@ -21,9 +21,6 @@ I responsible for most development and algorithm work.
 
 ![](/images/slidepin/p1.jpg)
 
-![](/images/slidepin/p2.jpg)
-
-![](/images/slidepin/p3.jpg)
 
 
 
