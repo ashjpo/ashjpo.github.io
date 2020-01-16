@@ -9,6 +9,7 @@ permalink: /CV/
  **Mingyi Ma**
 
 age: 24 
+
 gender: male 
 
 ## Education
