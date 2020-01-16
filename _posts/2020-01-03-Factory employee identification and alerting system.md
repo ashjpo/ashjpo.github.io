@@ -18,15 +18,15 @@ I responsible for all development and algorithm work.
 
 ## Demonstrate
 
-![](/images/lbs/p1.png)
+![](/images/factory/p1.png)
 
-![](/images/lbs/p2.png)
+![](/images/factory/p2.png)
 
-![](/images/lbs/p3.png)
+![](/images/factory/p3.png)
 
-![](/images/lbs/p4.png)
+![](/images/factory/p4.png)
 
-![](/images/lbs/p5.png)
+![](/images/factory/p5.png)
 
 
 
