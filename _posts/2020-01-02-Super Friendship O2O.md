@@ -23,13 +23,13 @@ I responsible for most development work.
 
 ![](/images/sf/p1.jpg)
 
-![](/images/sf/p2.png)
+![](/images/sf/p2.jpg)
 
-![](/images/sf/p3.png)
+![](/images/sf/p3.jpg)
 
-![](/images/sf/p4.png)
+![](/images/sf/p4.jpg)
 
-![](/images/sf/p5.png)
+![](/images/sf/p5.jpg)
 
 ![](/images/sf/p6.png)
 
