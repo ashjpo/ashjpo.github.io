@@ -6,7 +6,7 @@ permalink: /CV/
 
 ## Basic
 
-&ensp;&ensp;**Mingyi Ma**
+&ensp;&ensp;**Mingyi Ma | 马明仪** 
 
 &ensp;&ensp;age: 24 
 
