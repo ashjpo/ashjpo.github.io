@@ -20,16 +20,16 @@ I responsible for all development work.
 
 ## Demonstrate
 
-![](/images/lbs/p1.png)
+![](/images/fz/p1.png)
 
-![](/images/lbs/p2.png)
+![](/images/fz/p2.png)
 
-![](/images/lbs/p3.png)
+![](/images/fz/p3.png)
 
-![](/images/lbs/p4.png)
+![](/images/fz/p4.png)
 
-![](/images/lbs/p5.png)
+![](/images/fz/p5.png)
 
-![](/images/lbs/p6.png)
+![](/images/fz/p6.png)
 
 
