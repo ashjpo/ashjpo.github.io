@@ -8,7 +8,7 @@ The "Store Expert" is an entrepreneurial project with several classmates. The "S
 
 We use artificial intelligence and data analysis in the retail field. Provide store owners with customer or VIP identification, business data analysis,customer statistics, etc. 
 
-In this page, I foucus on the part of data anlyze and combination of shopping information and face data. There are other sections of the "Store Expert", and I will display them on other pages of my site.
+In this page, I focus on the part of data analyze and combination of shopping information and face data. There are other sections of the "Store Expert", and I will display them on other pages of my site.
 
 
 
