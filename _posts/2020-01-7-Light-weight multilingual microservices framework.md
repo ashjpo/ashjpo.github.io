@@ -30,6 +30,8 @@ I responsible for all development work.
 
 ## Demonstrate
 
+![](/images/ms/p2.png)
+
 ![](/images/ms/p1.jpg)
 
 

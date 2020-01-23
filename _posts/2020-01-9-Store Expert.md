@@ -29,6 +29,8 @@ I responsible for most development and algorithm work.
 
 ## Demonstrate
 
+![](/images/store_expert/p8.png)
+
 ![](/images/store_expert/p3.jpg)
 
 ![](/images/store_expert/p6.jpg)

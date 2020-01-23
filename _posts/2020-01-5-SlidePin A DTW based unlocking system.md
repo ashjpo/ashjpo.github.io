@@ -21,7 +21,7 @@ I responsible for most development and algorithm work.
 
 ![](/images/slidepin/p1.jpg)
 
-
+![](/images/slidepin/p2.png)
 
 
 
