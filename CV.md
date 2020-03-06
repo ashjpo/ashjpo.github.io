@@ -26,3 +26,6 @@ permalink: /CV/
 ## Internship Experience
 
 &ensp;&ensp;**Lenovo Research** (Device+ group---Computer vision intern)
+
+## Here are some summaries of HCI papers
+&ensp;&ensp;<https://github.com/ashjpo/HCI_paper>

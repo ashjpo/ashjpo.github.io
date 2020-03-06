@@ -23,6 +23,10 @@ I responsible for algorithm development and debugging.
 
 ![](/images/sitting_position/p1.jpg)
 
+![](/images/sitting_position/p1.png)
+
+![](/images/sitting_position/p2.png)
+
 ![](/images/sitting_position/p2.jpg)
 
 ![](/images/sitting_position/p3.jpg)
