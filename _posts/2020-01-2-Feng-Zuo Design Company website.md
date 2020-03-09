@@ -1,24 +1,22 @@
 ---
 layout: post
-title: "Feng-Zuo Design Company Website"
+title: "丰茁建筑设计公司主页"
 featured-img: fz
 ---
 
 
-## Background 
+丰茁建筑设计公司主页
 
-This is an website for Shanghai Feng-Zuo company. 
+由于设计公司的主页专注于显示，因此图像需要保持高分辨率。 但是，它也应保持较高的请求速度。 因此，在这个项目中，我使用某种方式来实现此目标，例如延迟加载，图片压缩，拆分请求等。
 
-As the company's homepage focuses on display, the images need to maintain high resolution. However, it also should maintain high request speed. So in this project, i use some way to achieve this goal, such as lazy-load, picture compression, split request, etc.
+网站的后端由php和thinkphp框架开发，并且该网站兼容的手机浏览器。
 
-The backend of the website was developed by php and thinkphp framework, and the website has compatibled phone browser.
+## 主要工作
 
-## Responsibilities
-
-I responsible for all development work.
+独立开发
 
 
-## Demonstrate
+## 展示
 
 ![](/images/fz/p1.png)
 

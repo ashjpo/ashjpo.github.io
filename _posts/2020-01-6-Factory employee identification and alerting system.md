@@ -1,22 +1,18 @@
 ---
 layout: post
-title: "Factory Employee Identification and Alerting System"
+title: "工厂员工动线分析系统 "
 featured-img: factory
 ---
 
 
-## Background 
+该系统是为苏州的一家包装企业开发。通过安装在工厂通道和入口处的摄像头，利用图像检测、识别及数据分析等技术，进行员工误入报警并对员工动线进行分析。从而，帮助企业降低因人员不正确流动引起的管理风险。在该系统中，工厂中的多个摄像机将视频流推送到中央GPU设备中，进而分析视频帧。该系统与旺铺专家中的图像处理方式类似，都使用检测加跟踪的形式，确定视频流内同一个人脸。
 
-This project was developed for a factory in Suzhou China. The computer vision algorithm in this project is similar to the project "Customer Statistics and Identification System". But this project focus on early warning and employee movement route statistics. The system identifies the employees who should not enter a certain area. And record and analyze each employee's daily movement path in the factory.
+## 主要工作
 
-In this system, multiple cameras in the factory push video streams to the central server with GPU. Then the service will analyze the video frame. By combine detection and tracker, we can distinguish each single object. After that the face recognition algorithm will generate face-id vector. Currently we are planning to improve the system with Re-ID technology. The purpose is to improve the recall rate of early warning.
-
-## Responsibilities
-
-I responsible for all development and algorithm work.
+负责包括图像算法，系统开发，数据分析在内的全生命周期工作。
 
 
-## Demonstrate
+## 展示
 
 ![](/images/factory/p1.png)
 

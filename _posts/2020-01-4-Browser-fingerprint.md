@@ -1,21 +1,20 @@
 ---
 layout: post
-title: "Browser-Fingerprint: A ML-Based Recognition System"
+title: "浏览器指纹"
 featured-img: webfp
 ---
 
-## Background 
 
-The user identification and browsing tracking of user access on the Internet is very important. For example: 1) Sometimes users do not login on the website and have cookies disabled, but the website still needs to accurately identify the user. 2) In some areas of electronic finance or electronic payment, an attacker may disguise user's identity or cookie information. In these cases, browser fingerprinting can be used as a tool to locate client users accurately .
+互联网上的用户标识和用户访问的浏览跟踪非常重要。 例如：1）有时用户没有登录网站并禁用了cookie，但是网站仍然需要准确识别用户，如互联网广告 2）在某些电子金融或电子支付领域，攻击者可能掩盖用户的身份或cookie信息。 在这些情况下，浏览器指纹可以用作准确定位客户端用户的工具。
 
-The system gets some basic information by client and user devices through the browser. And upload this information to the cloud. This information is processed and filtered. Then, some traditional machine learning or deep learning methods are used to identify the user.
+通过使用该系统，网站可以在用户禁用浏览器cookie等功能时对其进行跟踪和识别。该系统通过javascript将客户端的众多属性发送到服务器端，对其中部分属性使用机器学习的方式进行建模，并使用通过一定逻辑与数据库中的信息进行比对和检索。
 
-## Responsibilities
+## 主要工作
 
-I responsible  for all algorithm development and development work.
+在实验室学长的研究之上独立开发。包括测试网站和后台数据展示系统的搭建，指纹比对逻辑的研究，属性建模工作。（目前项目进行中）
 
 
-## Demonstrate
+## 展示
 
 ![](/images/webfp/p3.jpg)
 
