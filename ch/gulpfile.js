@@ -99,7 +99,7 @@ gulp.task('critical', function (cb) {
   critical.generate({
     base: '_site/',
     src: 'index.html',
-    css: ['assets/css/main.css'],
+    css: ['./assets/css/main.css'],
     dimensions: [{
       width: 320,
       height: 480
@@ -173,5 +173,5 @@ gulp.task('img', function() {
       withMetadata: false,
     }))
     .pipe(imagemin())
-    .pipe(gulp.dest('assets/img/posts/'));
+    .pipe(gulp.dest('./assets/img/posts/'));
 });
