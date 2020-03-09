@@ -1,23 +1,17 @@
 ---
 layout: post
-title: "SlidePin: A DTW-Based Unlocking System"
+title: "SlidePin:基于DTW的智能手机解锁系统"
 featured-img: slidepin
 ---
 
-The main purpose of this work is to use machine learning algorithms to improve the security and accuracy of smartphone sliding unlocking.
+这是在学校实验室参与的一个项目。该系统收集使用者滑动时的多项指标，如：坐标，速度，加数度，角度等，并通过机器学习手段进行建模。在日常使用中，对完整数据进行切分，过滤，再用DTW算法进行比对，最后使用SVM等算法对距离进行分类。从而提高普通滑动解锁系统的安全性。通过这种解锁方式可以在保证一定错误拒绝率的情况下大大提高安全性。即使当攻击者知道所要滑动的路径时，该系统也能很好的区分攻击者和使用者。
 
-## Background 
+## 主要工作
 
-Using users historic slide path in smartphone to build a unlocking model. To identify whether it is an attacker when user unlock the screen, the system will compare the new input slide path with the above model. In this project, first we record slide information (coordinate, velocity, acceleration, etc) for training,and do some filter to the path waveform. Then, we use DTW reform the uncertain length waveform into the same length. Finally, base on different ML-algorithm such as LR,SVM,DNN, we built different model. Next time, when user slide on the screen to unlock smart phones, we will compare the new path with above model.
-
-Unlike the traditional slide unlocking mode, in this project, even if attacker slide a right password path, the system still need to compare other information above.
-
-## Responsibilities
-
-I responsible for most development and algorithm work.
+该系统为在实验室学长的研究基础上进行的研究。主要负责算法开发的全部工作，包括数据选择，算法优化等。此外，还负责Android测试程序的开发工作。
 
 
-## Demonstrate
+## 展示
 
 ![](/images/slidepin/p1.jpg)
 

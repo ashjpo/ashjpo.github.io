@@ -1,23 +1,19 @@
 ---
 layout: post
-title: "Deep Sea Browser"
+title: "深海浏览器"
 featured-img: dsb
 ---
 
 
-## Background 
-
-Deep Sea Browser is an extremely lightweight browser. One of the features of this browser is that it can run on a low-performance mobile phone without crashing. Deep sea browsers take up very little resources at runtime. 
-
-The browser can compatible many earlier Android version smart phone. Meanwhile, the browser also did some optimization for low-performance mobile phone, such as caching, network, animation, etc.
+深海浏览器是一款极其轻量化的Android浏览器。该软件的开发的目的是兼容较低版本的Android系统，并占用较低的资源。为此，该浏览器开发时在渲染引擎之前与之后做了一些缓存和网络资源请求方面的优化。
 
 
-## Responsibilities
+## 主要工作
 
-I responsible for all development work.
+独立开发。
 
 
-## Demonstrate
+## 展示
 
 ![](/images/dsb/p1.png)
 

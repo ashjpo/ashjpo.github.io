@@ -1,33 +1,33 @@
 ---
 layout: post
-title: "Store Expert"
+title: "旺铺专家"
 featured-img: se
 ---
 
-The "Store Expert" is an entrepreneurial project with several classmates. The "Store Expert" consists of several products, such as business data analyze, customer statistics, AI advertisements, etc. The purpose of these products is to help businesses making better use of data. And precise marketing for customers. These products have been used in several chain store companies in China.
 
-We use artificial intelligence and data analysis in the retail field. Provide store owners with customer or VIP identification, business data analysis,customer statistics, etc. 
-
-In this page, I focus on the part of data analyze and combination of shopping information and face data. There are other sections of the "Store Expert", and I will display them on other pages of my site.
+“旺铺专家”项目将人工智能，大数据分析，应用到新零售领域。这个项目将顾客的人脸特征(face-id,age,gender)与顾客消费数据结合，帮助商家进行数据分析与精准营销。“旺铺专家”是我和几名同学的一个创业项目，我们将大数据分析和图像识别等技术应用的连锁店铺中。该项目已经在国内的几家连锁店的部分店铺使用。该项目由多个子项目组成，如顾客统计，经营数据分析，AI广告等。在本页中，主要关注数据分析以及顾客人脸信息与消费信息结合的部分。其他子项目将在项目主页的其他部分中介绍。
 
 
 
-## Background 
 
-When customers in front of the checkout counter, the program will automatically capture the face image of the customer, then identify VIP and frequent customer by it. The system will also record the age, gender and other attributes of the customer. When the customer checks out, the face-id data of customer will be matched with the shopping information. These information will then be uploaded to the cloud server. The above data will be linked to the previous information of this customer, such as shopping history, consumer preference, etc.
+## 技术简介
 
-In addition, when customers enter the store, the VIP and the frequent customers will be identified by the camera at the entrance, then the information of this customer will be pushed to the shop employee's APP. The information includs the consumer preference, shopping history, purchase level, VIP number, etc. Furthermore, the camera will also statistics the number of different ages and genders customers.(in project "Customer Statistics and Identification System")
+该子项目的主要功能是，通过安放在结账台的摄像头抓取购买者的人脸，再将其人脸信息与消费信息结合发送到云端，最后对这些人脸进行聚类和消费数据分析。首先，我们在结账台放置摄像头，将视频流传输到现场的分析设备中。在分析设备中，我们对顾客人脸进行检测，并进行筛选[注1]，之后分析人脸属性，如：人脸特征(faceid)，年龄，性别。之后与购物者的消费信息进行结合。为了实现这个信息的结合，我们需要当顾客结账完成时实时获取他的消费信息。但是由于，商家使用的收银软件是由第三方公司提供的，我们无法从他们那直接获取关于顾客消费信息的接口，从而与我们自己的系统连接到一起。为了解决这个问题，我们使用了一种巧妙地方式获取顾客地消费数据。当顾客购物完成时，每家店铺都会通过收银电脑和小票打印机打印收银小票。这个收银小票中包含了顾客地全部消费数据，另一方面，通常来讲收银软件是支持ip打印的[注2]，因此我们改变了原来店铺内收银电脑与小票打印机直接连接地方式[注3]。这里我们使用一个树莓派开发板作为转发和信息获取设备，在树莓派开发板中，我们监听ip打印端口，并且将收银软件调到ip打印，当顾客结账完成后树莓派就能顺利地获取打印机输出地ESP打印指令。于此之后，我们会解析ESP指令，并将获取到的内容发送到分析设备中，之后再通过内容匹配信息。另一方面，我们将小票打印机与树莓派进行连接，以USB打印的形式将获取地信息进行转发。经过这一系列转换，我们就可以顺利的获取到顾客的消费信息。之后我们将顾客的消费信息与人脸信息进行结合，发送到云端。
 
-Finally, in the admin website, we will show analyzed data to brand managers, such as store transaction rate, buyer retention rate, product sales forecast, customer preferences, product portraits, etc.
+在云端，我们会定时对这些数据进行分析，从而的到每个顾客的消费偏好，商家的商品特性等信息。在做这些分析工作之前，我们需要对每条收集上来的人脸数据进行聚类。换句话说，我们需要知道哪些不同时间段的消费数据是同一个人发生的，因此，需要对他们每次消费时截取的人脸进行聚类。举个例子，在进行了这一些操作之后，我们就可以将顾客在不同时间进行的多次消费联系起来。
 
-The entire system consists of multiple parts, such as the store analyze device, APP on phone and pad for shop staff, admin website for business manager, spark data anlayze system, some data acquisition equipment, etc. The backend services for above are provided by a micro-service which developed by myself(detail in project "LM-MS"). A open-source version has been uploaded to github (<https://github.com/ashjpo/LM-MS>). And Some computer vision algorithm such as "Face recognition, face detection, multi-object tracker, etc" by CNN are involved. And some tricks has been done in them. At the same time, in order to speed up the face-id match speed in the database, we search in a tree structure based on the Attributes, such as shop, region, age, and gender, etc.
+[注1]：对于人脸筛选，我们需要做到两部分工作。第一个是我们需要确定在结账台前哪位顾客是正要结账的人。因此我们提供三种模式进行选择，即手动选择，自动选择，手动+自动的方式。另一个任务是，我们需要在该顾客检测出来的多张人脸图片中，选择最清晰，角度正的图片。
 
-## Responsibilities
+[注2]：目前几乎所有商用收银软件都支持ip打印，但是对于部分较老的不知此ip打印只支持串口或USB打印的设备，我们通过在收银设备中安装程序，转发成ip打印形式。
 
-I responsible for most development and algorithm work.
+[注3]：原方式：收银电脑->小票打印机         现方式：收银电脑->树莓派->小票打印机
+
+## 主要工作
+
+负责除商品推荐算法和时间序列销量预测外的全部工作，包括系统开发（前后端开发，Android开发，微服务框架开发等）和算法（人脸检测，人脸识别，目标跟踪，人脸聚类）等工作。
 
 
-## Demonstrate
+## 展示
 
 ![](/images/store_expert/p8.png)
 

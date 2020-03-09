@@ -1,25 +1,20 @@
 ---
 layout: post
-title: "Sitting Posture Recognition"
+title: "坐姿识别系统"
 featured-img: sp
 ---
 
-Correct writing posture is very important for people. Especially for young people. If the writing posture is not correct, it will not only cause the spine to bend, but also cause vision loss, etc.
-
-## Background 
-
-This project was done during my internship at Lenovo Research.
-
-This project is to record people in front of the table through the camera on the table lamp. Then push the video stream into the sitting recognition algorithm for recognition. It will then analyze the sitting posture of the person in front of the camera for a period of time, and will send the information to the PC screen and smartphone for display or send alert information.
-
-This project uses multiple types of identification algorithms such as single frame recognition and time-series-based recognition algorithms. At the same time, some methods are used to optimize the algorithm, such as using DCN to control the receptive field. In addition, using CAM map and other tools to analyze the focus of the neural network.
-
-## Responsibilities
-
-I responsible for algorithm development and debugging.
+正确的书写姿势对人们来说非常重要。 特别是对于年轻人。 如果书写姿势不正确，不仅会导致脊柱弯曲，还会导致视力下降等。这是在联想实习时参与的一个项目。在台灯上集成摄像头拍摄书写者，通过多阶段图像检测、分割、过滤等算法对图像进行分析，从而识别书写者坐姿，并对错误坐姿进行矫正。并将信息发送到PC屏幕和智能手机进行显示或发送警报信息。
 
 
-## Demonstrate
+该项目使用多种类型的识别算法，例如单帧识别和基于时间序列的识别算法。 同时，还使用了一些方法来优化算法，例如使用DCN来控制rf。 另外，使用CAM和其他工具来分析神经网络的关注点。
+
+## 主要工作
+
+负责数据采集，算法研究、调优等工作。
+
+
+## 展示
 
 ![](/images/sitting_position/p1.jpg)
 

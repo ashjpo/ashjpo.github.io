@@ -1,24 +1,24 @@
 ---
 layout: post
-title: "WebGL development framework"
+title: "WebGL 开发框架"
 featured-img: web3D
 ---
 
-During this time, I developed a WebGL development framework. This system is similar to Unity 3D on the web side, which can perform model editing, game manufacturing, scene layout, etc.
+这是一款Web端的3D开发框架，功能与Unity 3D类似。不同的是,可以直接在Web端通过网页编辑执行模型导入，纹理编辑，场景布局等操作。并可以直接发布WebGL应用。使在Web端创建3D场景更加便捷，而不用编写过多WebGL代码。
 
-Although Unity 3D can be published to the web, there are many disadvantages, such as difficulty in interacting with the web and slow loading speed. Compared with Unity 3D, this 3D effect written directly on the web side has faster loading speed, lower rendering consumption, and more flexibility in web pages. At the same time, I made many optimizations to increase the loading speed of models and texture. For example, load low quality resources first and then high quality.
+虽然，Unity 3D可以导出WebGL场景的代码。但是，这种方式有很多缺点，比如，导出的场景无法与网页内容进行交互，加载速度慢，场景文件大等。本框架与Unity 3D雷士，可以导入Mesh，创建材质，布置场景等。但是与Unity 3D不同的是，使用者可以直接在网页中对场景进行编辑操作，然后直接发布原生WebGL应用，此应用可以很好的融合到web页面中。场景内的模型贴图等一系列数据，通过json配置文件形式组织。当需要显示该场景时，只需要使用程序读入一系列json配置文件，便能够在web端创建场景。
 
-By using this system, you can easily build a native webgl application. This reduces the difficulty of previously writing code to develop webgl. You can use this framework to directly develop 3d games and 3d display on the web side, and publish them in the website.
+在该系统中，为了平衡模型贴图质量与加载和显示速度做了许多优化。比如，在该系统中，生成不同质量的模型贴图文件。当初次加载场景时，先加载低质量的小贴图。当低质量贴图加载结束后或物体进入用户摄像机视角时再加载高质量贴图进行替换。
 
-(This system is still under development. Most of the work has been done.)
-
-
-## Responsibilities
-
-I responsible for all work.
+（本框架正在开发中，目前已经完成大部分内容）
 
 
-## Demonstrate
+## 主要工作
+
+独立开发
+
+
+## 展示
 
 ![](/images/web3D/p1.png)
 

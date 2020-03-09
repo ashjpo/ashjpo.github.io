@@ -1,34 +1,21 @@
 ---
 layout: post
-title: "LM-MS Micro-Services Framework"
+title: "轻量级多语言微服务框架(LM-MS)  "
 featured-img: lmms
 ---
 Lightweight & multi-language micro-services framework (LM-MS) 
 
-A multi-language, lightweight, high-performance micro-services framework, users only need to care about application logic coding,without having to think about fault-tolerance, service load balance, etc.
-
-## Background 
-
-This project is based on java, Hprose and mqtt. The micro-services system is consist of "Main Control Service(MCS)" , "api-gate" , "APP-service(AS)".
-
- **i)** Due to the need to provide multiple backend services to the previous project such as video streaming, face-id database synchronization, receiving customer shopping data, admin management system, customer statistics data, etc. The logic is complex, so the backend provides data support in the form of micro-services. 
-
- **ii)** Project backend code was written by multiple languages (java and php), and current mainstream frameworks rarely support multilingual. 
-
- **iii)** Current popular micro-services framework is complex in configuration and need a lot of resources. 
- 
- **iV)** Using traditional http is less efficient, and there are more tasks in the system that require multiple backend services, resulting in a large loss of resources. 
+这是一款适合中小型系统的微服务框架，与其他主流产品相比，其具有轻量级、兼容多语言、高性能的特点。为使用者提供了负载均衡、限流、熔断、数据缓存等功能，使用者只需要关心与业务逻辑相关的代码即可。该框架的开发初衷是为了为“旺铺专家”项目提供后端服务。由于“旺铺专家”项目的后端由不同语言编写，另一方面有些请求需要多个后端服务对其提供数据，而且服务之间页有许多交叉的请求。因此，为了更好的组织项目，更高效的对外提供服务，更好的容错。因此我们后期将“旺铺专家”的后端移植到微服务的形式上。但是目前主流微服务框架，通常非常庞大，需要占用很多资源，不适合中小型项目的部署。另一方面，这些框架大多仅仅支持一种语言开发。因此，这里我自己开发了一款基于JAVA和MQTT通讯框架，hprose rpc通信的小型微服务框架。该框架可以很好的适应我们这个应用。
 
 Github：<https://github.com/ashjpo/LM-MS>
 
-(A more detail description is in github.)
 
-## Responsibilities
+## 主要工作
 
-I responsible for all development work.
+独立完成项目开发的全生命周期工作。包括分析我们系统对于后端的需求，即需要后端满足对外提供怎样的服务，如何满足负载和容错，对于之前已有的后端如何进行移植等。于此，之后参考目前主流框架，对该框架的系统进行设计。将其分为以下几个大部分：api-gateway，main server，application server。并将几大部分应用MQTT通信进行连接。最后，独自完成编码开发工作。
 
 
-## Demonstrate
+## 展示
 
 ![](/images/ms/p2.png)
 
