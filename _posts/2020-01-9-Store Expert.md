@@ -33,10 +33,12 @@ featured-img: se
 
 ![](/images/store_expert/p3.jpg)
 
+![](/images/store_expert/a6.png)
+
 ![](/images/store_expert/p6.jpg)
 
 ![](/images/store_expert/p5.jpg)
 
-![](/images/store_expert/p4.png)
+![](/images/store_expert/a3.png)
 
 ![](/images/store_expert/p7.jpg)
